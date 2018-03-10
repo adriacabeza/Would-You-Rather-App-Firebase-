@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "909778562087",
+    "firebase_url": "https://preferirias-37e32.firebaseio.com",
+    "project_id": "preferirias-37e32",
+    "storage_bucket": "preferirias-37e32.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:909778562087:android:fac29bf4eabc8246",
+        "android_client_info": {
+          "package_name": "me.adriacabeza.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "909778562087-gnd47qoi0nlkqcfpmg6gpd24kbfs1pr8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "me.adriacabeza.myapplication",
+            "certificate_hash": "eb65bbc09428eb246ce4a250bcec73b35b80bb97"
+          }
+        },
+        {
+          "client_id": "909778562087-fhdbgsce6ujgbthd091apappg67lefok.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBIBclcjbVuLK-lt_VzOGko7NtbPXCiPkE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "909778562087-fhdbgsce6ujgbthd091apappg67lefok.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
