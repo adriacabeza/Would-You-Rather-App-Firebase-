@@ -31,6 +31,7 @@ public class MainActivity extends AppCompatActivity {
                 Intent intent = new Intent(MainActivity.this,GameEditActivity.class);
                 startActivity(intent);
 
+
             }
         });
 
@@ -70,4 +71,5 @@ public class MainActivity extends AppCompatActivity {
 
         }
     }
+
 }

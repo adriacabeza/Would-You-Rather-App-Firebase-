@@ -1,6 +1,7 @@
 package me.adriacabeza.myapplication;
 
 import android.os.Bundle;
+import android.os.Handler;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.TextView;
@@ -61,16 +62,13 @@ public class GameActivity extends AppCompatActivity {
         });
 
 
-
-
-
-
         texto1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 int1 = int1+1;
                 mDatabase.child("pregunta"+rand).child("int1").setValue(int1);
                 showstats();
+                restart();
 
 
             }
@@ -81,9 +79,12 @@ public class GameActivity extends AppCompatActivity {
                 int2 = int2+1;
                 mDatabase.child("pregunta"+rand).child("int2").setValue(int2);
                 showstats();
+                restart();
             }
         });
+
     }
+
 
 
     private void showstats() {
@@ -105,6 +106,19 @@ public class GameActivity extends AppCompatActivity {
                 loadActivity();
             }
         });
+    }
+
+
+    private void restart(){
+        Runnable r = new Runnable() {
+            @Override
+            public void run(){
+               loadActivity();
+            }
+        };
+
+        Handler h = new Handler();
+        h.postDelayed(r, 500); // <-- the "1000" is the delay time in miliseconds.
     }
 
 }
