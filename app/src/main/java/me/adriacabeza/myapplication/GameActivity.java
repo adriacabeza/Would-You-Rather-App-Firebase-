@@ -31,6 +31,7 @@ public class GameActivity extends AppCompatActivity {
 
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        overridePendingTransition(R.anim.slide_in, R.anim.slide_out);
         setContentView(R.layout.game);
         DBref=FirebaseDatabase.getInstance().getReference();
         loadActivity();
@@ -119,6 +120,11 @@ public class GameActivity extends AppCompatActivity {
 
         Handler h = new Handler();
         h.postDelayed(r, 500); // <-- the "1000" is the delay time in miliseconds.
+    }
+    @Override
+    public void onBackPressed() {
+        super.onBackPressed();
+        overridePendingTransition(R.anim.slide_2, R.anim.slide_3);
     }
 
 }
