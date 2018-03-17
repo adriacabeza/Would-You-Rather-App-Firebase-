@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Would-Your-Rather-App-Firebase-.iml" filepath="$PROJECT_DIR$/Would-Your-Rather-App-Firebase-.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Would-You-Rather-App-Firebase-.iml" filepath="$PROJECT_DIR$/Would-You-Rather-App-Firebase-.iml" />
+      <module fileurl="file://C:\Users\Lord Sant'Anna\Desktop\Projectes\Android\Rather\Would-You-Rather-App-Firebase-\Would-Your-Rather-App-Firebase-.iml" filepath="C:\Users\Lord Sant'Anna\Desktop\Projectes\Android\Rather\Would-You-Rather-App-Firebase-\Would-Your-Rather-App-Firebase-.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>
